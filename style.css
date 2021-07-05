@@ -1,3 +1,4 @@
+
 header{
     background: url(images/central_park.jpg) 0-200px no-repeat; /*place image as background*/
     background-size: 1500px; /*background-position:0-200px;*/ /*background-repeat: no-repeat;*/
@@ -36,4 +37,20 @@ nav{
     height: 50px;
     text-align: center;
     padding-top: 2px;
+}
+
+main{
+    height: 400px;
+}
+main h1{
+    color: rgb(129,141,179);
+    font-family: arial;
+}
+
+footer{
+    height: 40px;
+    background-color: rgb(129,141,179);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211,218,240);
 }
