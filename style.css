@@ -1,3 +1,5 @@
-body{
-    background-color: aquamarine;
+header{
+    background: url(images/central_park.jpg) 0-200px no-repeat; /*place image as background*/
+    background-size: 1500px; /*background-position:0-200px;*/ /*background-repeat: no-repeat;*/
+    height:400px; /*give header some height to display the background image*/
 }
