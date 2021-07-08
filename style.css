@@ -45,6 +45,7 @@ nav{
 
 main{
     /*height: 400px;*/
+    margin: 50px;
 }
 
 main h1{
@@ -61,7 +62,48 @@ footer{
 }   
 
 /* Page 2 Styling*/
+table{
+    margin-top: 35px;
+}
 
+table, caption, td, th{
+    border: 1px solid #000;
+}
 
+th, td{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+caption{
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
 
 /*Page 3 Styling*/
+label{
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+input, textarea{
+    width: 300px;
+    display: block;
+}
+
+input[type="radio"]{ /*attribute selector*/
+    width: 25px;
+    display: inline;
+}
+
+
+input[type="submit"], input[type="reset"]{
+    display: inline;
+    margin: 20px 0px 10px 5px;
+    width: 100px;
+}
+
