@@ -1,4 +1,4 @@
-
+/*All or Global Styling*/
 header{
     background: url(images/central_park.jpg) 0-200px no-repeat; /*place image as background*/
     background-size: 1500px; /*background-position:0-200px;*/ /*background-repeat: no-repeat;*/
@@ -19,15 +19,19 @@ li{
 li a {
     text-decoration: none; /*remove underline*/
 }
+
 li a:link {
     color: #000; /*before click*/
 }
+
 li a:visited{
     color: #818db3; /*after click*/
 }
+
 li a:hover{
     color: #333; /*mouse over*/
 }
+
 li a:active{
     color: #753a30; /*mouse down*/
 }
@@ -40,8 +44,9 @@ nav{
 }
 
 main{
-    height: 400px;
+    /*height: 400px;*/
 }
+
 main h1{
     color: rgb(129,141,179);
     font-family: arial;
@@ -53,4 +58,10 @@ footer{
     text-align: center;
     padding-top: 20px;
     color: rgb(211,218,240);
-}
+}   
+
+/* Page 2 Styling*/
+
+
+
+/*Page 3 Styling*/
